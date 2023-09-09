@@ -1,5 +1,5 @@
 # Merge_sort
-Aplication of merge sort in python for my home work of my college
+#Aplication of merge sort in python for my home work of my college
 # coding: utf-8
 import pickle
 
