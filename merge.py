@@ -61,6 +61,11 @@ def compara_dicionario(l,chave1,chave2):
     elif nota_final_ordenacao1<100 or nota_final_ordenacao2<100:
       if nota_final_ordenacao1 < nota_final_ordenacao2: return False
       elif nota_final_ordenacao1 > nota_final_ordenacao2: return True
+      elif nota_final_ordenacao1 == nota_final_ordenacao2:
+        if nome1 < nome2: return True
+        elif nome1 > nome2: return False
+        elif chave1<chave2: return True
+        else: return False
     # (c) Em caso de novo empate, ordenar em ordem alfabética do nome
     elif nome1 < nome2: return True
     elif nome1 > nome2: return False
